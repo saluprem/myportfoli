@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@200&family=PT+Sans&display=swap');
+:root{
+    /* --variable_name:value */
+    --red:#EF233C;
+    --white:white;
+    
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color:black ;
+    color:var(--white);
+    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+
+}
+.nav-item a{
+    color:var(--white);
+}
+.nav-item a:hover{
+    color: var(--red);
+}
+
+.profile{
+    width: 50%;
+    height: 70%;
+    margin: 10%;
+    filter: drop-shadow(10px 10px 10px rgb(31, 30, 30));
+}
+.image{
+    width: 80%;
+    height: 80%;
+    filter: drop-shadow(10px 10px 10px rgb(14, 14, 14));
+}
+.card img{
+    height: 300px;
+    
+}
+.title{
+    color: var(--red);
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.icons i{
+    margin-left: 10px;
+    color: var(--red);
+}
